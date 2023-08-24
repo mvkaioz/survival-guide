@@ -16,6 +16,7 @@ function MainMenu() {
             ></img>
           </button>
         </div>
+        <div className="menu-bg"></div>
       </div>
       <div className="square-2">
         <div className="col-2">

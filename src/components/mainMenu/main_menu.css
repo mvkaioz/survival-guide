@@ -161,4 +161,17 @@ p {
     margin-left: auto;
     border-radius: 1.25rem;
   }
+
+    /* CSS for Menu */
+    .menu-bg {
+      background-color: #fae9d3;
+      width: 358px;
+      height: 652px;
+      top: 416px;
+      left: 57px;
+      position: absolute;
+      display: flex;
+      z-index: 1;
+    }
+  
 }

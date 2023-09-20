@@ -119,3 +119,32 @@ button:hover {
     margin-bottom: 32%;
   }
 }
+
+/* Page Not Found CSS */
+.PNF-page {
+  text-align: center;
+}
+
+.PNF-title h2 {
+  color: #003;
+  font-family: "chewy";
+  font-size: 2rem;
+  font-weight: 400;
+  max-width: 20em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-PNF {
+  border-radius: 6.25rem;
+  background: #f6a794;
+  width: 20.0625rem;
+  height: 4.4375rem;
+  color: #003;
+  font-family: "poppin";
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 50%;
+  border: none;
+}

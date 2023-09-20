@@ -1,6 +1,7 @@
 import React from "react";
 import MainMenu from "./components/mainMenu/main_menu";
 import Splash from "./pages/splash";
+import PageNotFound from "./pages/PageNotFound";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -9,7 +10,7 @@ function App() {
     <Routes>
       <Route index element={<Splash />}></Route>
       <Route path="menu" element={<MainMenu />}></Route>
-      {/* <Route path="*" element={<PageNotFound />} /> */}
+      <Route path="*" element={<PageNotFound />} /> 
     </Routes>
   );
 }

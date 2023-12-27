@@ -1,6 +1,7 @@
 import "./main_menu.css";
 import logo from "../../img/logo.png";
 import hamburger from "../../img/hamburger.png";
+import Menu from "./menu_bar"; 
 
 function MainMenu() {
   return (
@@ -16,6 +17,7 @@ function MainMenu() {
             ></img>
           </button>
         </div>
+        <Menu />
         <div className="menu-bg"></div>
       </div>
       <div className="square-2">
